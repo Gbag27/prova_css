@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/prova/bg.png);
+    background-size: 100%;
+    font-family: "Lexend", sans-serif;
+    text-align: center;
+}
+
+header{
+    margin-top: 45px;
+}
+
+#logo{
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #cf0e0e;
+}
+
+#logo::first-letter{
+    color: #008000;
+}
+
+#menu{
+    /* coloquei borda colorida ao invés do fundo colorido  */
+    border: 3px solid #008000;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    padding: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    
+}
+
+#btm{
+    margin-top: 30px;
+    background-color: snow;
+    border: 2px solid #cf0e0e;
+    border-radius: 4px;
+    padding: 10px 24px;
+    transition: 0.4s;
+    font-family: "Lexend", sans-serif;
+}
+
+#btm:hover{
+    background-color: #cf0e0e;
+    color: snow;
+    cursor: pointer;
+}
